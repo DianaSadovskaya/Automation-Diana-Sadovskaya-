@@ -15,7 +15,7 @@ public class Task_6 {
 
     @BeforeTest
     public void preconditions() {
-        driver = new ChromeDriver();
+        driver = new ChromeDriver ();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
     }
