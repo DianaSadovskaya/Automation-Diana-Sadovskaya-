@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Automation-Diana-Sadovskaya" />
         <module name="Automation (Diana Sadovskaya)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Automation (Diana Sadovskaya)" target="17" />
+      <module name="Automation-Diana-Sadovskaya" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
