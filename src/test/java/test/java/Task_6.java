@@ -45,7 +45,7 @@ public class Task_6 {
         WebElement shoppingCart = driver.findElement(By.cssSelector(".shopping_cart_container"));
 
         //expected results List
-        List<String> expectedResult = new ArrayList<String>() {{
+        List<String> expectedResult = new ArrayList<>() {{
             add(product.getText());
             add(price.getText());
         }};
