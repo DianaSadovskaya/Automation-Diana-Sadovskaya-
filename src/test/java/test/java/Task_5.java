@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Task_5 {
     WebDriver driver = null;
 
@@ -33,11 +32,10 @@ public class Task_5 {
 Нажать на кнопку ‘Рассчитать’.
 Проверить полученные значения.
 Закрыть окно браузера.
-
      */
     @Test(dataProvider = "data")
     public void calculator(String width, String height, String laminateWidth, String laminateHeight,
-                           String pack, String priceOf, String biasOf, String wallDistance, List <String> expectedData) {
+                           String pack, String priceOf, String biasOf, String wallDistance, List<String> expectedData) {
         driver.get("https://masterskayapola.ru/kalkulyator/laminata.html");
         WebElement roomWidth = driver.findElement(By.name("calc_roomwidth"));
         WebElement roomHeight = driver.findElement(By.name("calc_roomheight"));
@@ -130,4 +128,3 @@ public class Task_5 {
 
 
 }
-
