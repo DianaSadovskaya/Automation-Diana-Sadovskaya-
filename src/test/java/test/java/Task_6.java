@@ -1,3 +1,5 @@
+package test.java;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +17,7 @@ public class Task_6 {
 
     @BeforeTest
     public void preconditions() {
+        System.setProperty("webdriver.chrome.driver", "/Users/di.sadovskaya/IdeaProjects/Automation (Diana Sadovskaya)/src/test/resources/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");

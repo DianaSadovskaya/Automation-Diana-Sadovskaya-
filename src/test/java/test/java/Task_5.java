@@ -1,3 +1,5 @@
+package test.java;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +21,7 @@ public class Task_5 {
 
     @BeforeTest
     public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "/Users/di.sadovskaya/IdeaProjects/Automation (Diana Sadovskaya)/src/test/resources/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
     }
