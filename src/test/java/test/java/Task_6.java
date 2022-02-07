@@ -17,7 +17,7 @@ public class Task_6 {
 
     @BeforeTest
     public void preconditions() {
-        System.setProperty("webdriver.chrome.driver", "/Users/di.sadovskaya/IdeaProjects/Automation (Diana Sadovskaya)/src/test/resources/chromedriver");
+        System.setProperty ("webdriver.chrome.driver", "/Users/di.sadovskaya/IdeaProjects/Automation (Diana Sadovskaya)/src/test/resources/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
